@@ -1,119 +1,108 @@
 <!DOCTYPE html>
-<html>
-    <head>
-      <meta charset = 'utf-8'>
-      <title>Assignment 4</title>
-    </head>
-
-  <h1>Assignment 4</h1>
-
-    <h2>Challenge 2: Create a Chessboard</h2>
-    <style type="text/css">
-    .tg  {border-collapse:collapse;border-spacing:0;}
-    .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-      overflow:hidden;padding:10px 5px;word-break:normal;height:2.75em;}
-    .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-      font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-    .tg .tg-pjzm{background-color:#329a9d;border-color:#68cbd0;color:#333333;text-align:left;vertical-align:top}
-    .tg .tg-vkll{border-color:#68cbd0;text-align:left;vertical-align:top}
-    .tg .tg-lxf2{background-color:#329a9d;border-color:#68cbd0;text-align:left;vertical-align:top}
-    </style>
-    <table class="tg" style="undefined;table-layout: fixed; width: 376px">
-    <colgroup>
-    <col style="width: 47px">
-    <col style="width: 47px">
-    <col style="width: 47px">
-    <col style="width: 47px">
-    <col style="width: 47px">
-    <col style="width: 47px">
-    <col style="width: 47px">
-    <col style="width: 47px">
-    </colgroup>
-    <thead>
-      <tr>
-        <th class="tg-lxf2"><p style="text-align:center">&#x2656;</p></th>
-        <th class="tg-vkll"><p style="text-align:center">&#x2658;</p></th>
-        <th class="tg-pjzm"><p style="text-align:center">&#x2657;</p></th>
-        <th class="tg-vkll"><p style="text-align:center">&#x2655;</p></th>
-        <th class="tg-lxf2"><p style="text-align:center">&#x2654;</p></th>
-        <th class="tg-vkll"><p style="text-align:center">&#x2657;</p></th>
-        <th class="tg-lxf2"><p style="text-align:center">&#x2658;</p></th>
-        <th class="tg-vkll"><p style="text-align:center">&#x2656;</p></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td class="tg-vkll"><p style="text-align:center">&#x2659;</p></td>
-        <td class="tg-lxf2"><p style="text-align:center">&#x2659;</p></td>
-        <td class="tg-vkll"><p style="text-align:center">&#x2659;</p></td>
-        <td class="tg-lxf2"><p style="text-align:center">&#x2659;</p></td>
-        <td class="tg-vkll"><p style="text-align:center">&#x2659;</p></td>
-        <td class="tg-lxf2"><p style="text-align:center">&#x2659;</p></td>
-        <td class="tg-vkll"><p style="text-align:center">&#x2659;</p></td>
-        <td class="tg-pjzm"><p style="text-align:center">&#x2659;</p></td>
-      </tr>
-      <tr>
-        <td class="tg-lxf2"></td>
-        <td class="tg-vkll"></td>
-        <td class="tg-lxf2"></td>
-        <td class="tg-vkll"></td>
-        <td class="tg-lxf2"></td>
-        <td class="tg-vkll"></td>
-        <td class="tg-lxf2"></td>
-        <td class="tg-vkll"></td>
-      </tr>
-      <tr>
-        <td class="tg-vkll"></td>
-        <td class="tg-lxf2"></td>
-        <td class="tg-vkll"></td>
-        <td class="tg-lxf2"></td>
-        <td class="tg-vkll"></td>
-        <td class="tg-lxf2"></td>
-        <td class="tg-vkll"></td>
-        <td class="tg-lxf2"></td>
-      </tr>
-      <tr>
-        <td class="tg-lxf2"></td>
-        <td class="tg-vkll"></td>
-        <td class="tg-lxf2"></td>
-        <td class="tg-vkll"></td>
-        <td class="tg-lxf2"></td>
-        <td class="tg-vkll"></td>
-        <td class="tg-lxf2"></td>
-        <td class="tg-vkll"></td>
-      </tr>
-      <tr>
-        <td class="tg-vkll"></td>
-        <td class="tg-lxf2"></td>
-        <td class="tg-vkll"></td>
-        <td class="tg-lxf2"></td>
-        <td class="tg-vkll"></td>
-        <td class="tg-lxf2"></td>
-        <td class="tg-vkll"></td>
-        <td class="tg-lxf2"></td>
-      </tr>
-      <tr>
-        <td class="tg-lxf2"><p style="text-align:center">&#x265F;</p></td>
-        <td class="tg-vkll"><p style="text-align:center">&#x265F;</p></td>
-        <td class="tg-pjzm"><p style="text-align:center">&#x265F;</p></td>
-        <td class="tg-vkll"><p style="text-align:center">&#x265F;</p></td>
-        <td class="tg-lxf2"><p style="text-align:center">&#x265F;</p></td>
-        <td class="tg-vkll"><p style="text-align:center">&#x265F;</p></td>
-        <td class="tg-lxf2"><p style="text-align:center">&#x265F;</p></td>
-        <td class="tg-vkll"><p style="text-align:center">&#x265F;</p></td>
-      </tr>
-      <tr>
-        <td class="tg-vkll"><p style="text-align:center">&#x265C;</p></td>
-        <td class="tg-lxf2"><p style="text-align:center">&#x265E;</p></td>
-        <td class="tg-vkll"><p style="text-align:center">&#x265D;</p></td>
-        <td class="tg-lxf2"><p style="text-align:center">&#x265B;</p></td>
-        <td class="tg-vkll"><p style="text-align:center">&#x265A;</p></td>
-        <td class="tg-lxf2"><p style="text-align:center">&#x265D;</p></td>
-        <td class="tg-vkll"><p style="text-align:center">&#x265E;</p></td>
-        <td class="tg-lxf2"><p style="text-align:center">&#x265C;</p></td>
-      </tr>
-    </tbody>
-    </table>
+<html lang='en' dir='ltr'>
+  <head>
+    <meta charset = 'utf-8'>
+    <title>Assignment 4</title>
+    <h1>Assignment 4</h1>
+      <style type="text/css">
+        .tg  {border-collapse:collapse;border-spacing:0;}
+        .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+          overflow:hidden;padding:10px 5px;word-break:normal;height:3em;width:3em;}
+        .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+          font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+        .tg .tg-pjzm{background-color:#329a9d;border-color:#68cbd0;color:#333333;text-align:left;vertical-align:top}
+        .tg .tg-vkll{border-color:#68cbd0;text-align:left;vertical-align:top}
+        .tg .tg-lxf2{background-color:#329a9d;border-color:#68cbd0;text-align:left;vertical-align:top}
+      </style>
+  </head>
+    <body>
+      <h2>Challenge 2: Create a Chessboard</h2>
+      <table class="tg" style=table-layout:fixed;width:376px>
+      <thead>
+        <tr>
+          <th class="tg-lxf2"><p style="text-align:center">&#x2656;</p></th>
+          <th class="tg-vkll"><p style="text-align:center">&#x2658;</p></th>
+          <th class="tg-pjzm"><p style="text-align:center">&#x2657;</p></th>
+          <th class="tg-vkll"><p style="text-align:center">&#x2655;</p></th>
+          <th class="tg-lxf2"><p style="text-align:center">&#x2654;</p></th>
+          <th class="tg-vkll"><p style="text-align:center">&#x2657;</p></th>
+          <th class="tg-lxf2"><p style="text-align:center">&#x2658;</p></th>
+          <th class="tg-vkll"><p style="text-align:center">&#x2656;</p></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="tg-vkll"><p style="text-align:center">&#x2659;</p></td>
+          <td class="tg-lxf2"><p style="text-align:center">&#x2659;</p></td>
+          <td class="tg-vkll"><p style="text-align:center">&#x2659;</p></td>
+          <td class="tg-lxf2"><p style="text-align:center">&#x2659;</p></td>
+          <td class="tg-vkll"><p style="text-align:center">&#x2659;</p></td>
+          <td class="tg-lxf2"><p style="text-align:center">&#x2659;</p></td>
+          <td class="tg-vkll"><p style="text-align:center">&#x2659;</p></td>
+          <td class="tg-pjzm"><p style="text-align:center">&#x2659;</p></td>
+        </tr>
+        <tr>
+          <td class="tg-lxf2"></td>
+          <td class="tg-vkll"></td>
+          <td class="tg-lxf2"></td>
+          <td class="tg-vkll"></td>
+          <td class="tg-lxf2"></td>
+          <td class="tg-vkll"></td>
+          <td class="tg-lxf2"></td>
+          <td class="tg-vkll"></td>
+        </tr>
+        <tr>
+          <td class="tg-vkll"></td>
+          <td class="tg-lxf2"></td>
+          <td class="tg-vkll"></td>
+          <td class="tg-lxf2"></td>
+          <td class="tg-vkll"></td>
+          <td class="tg-lxf2"></td>
+          <td class="tg-vkll"></td>
+          <td class="tg-lxf2"></td>
+        </tr>
+        <tr>
+          <td class="tg-lxf2"></td>
+          <td class="tg-vkll"></td>
+          <td class="tg-lxf2"></td>
+          <td class="tg-vkll"></td>
+          <td class="tg-lxf2"></td>
+          <td class="tg-vkll"></td>
+          <td class="tg-lxf2"></td>
+          <td class="tg-vkll"></td>
+        </tr>
+        <tr>
+          <td class="tg-vkll"></td>
+          <td class="tg-lxf2"></td>
+          <td class="tg-vkll"></td>
+          <td class="tg-lxf2"></td>
+          <td class="tg-vkll"></td>
+          <td class="tg-lxf2"></td>
+          <td class="tg-vkll"></td>
+          <td class="tg-lxf2"></td>
+        </tr>
+        <tr>
+          <td class="tg-lxf2"><p style="text-align:center">&#x265F;</p></td>
+          <td class="tg-vkll"><p style="text-align:center">&#x265F;</p></td>
+          <td class="tg-pjzm"><p style="text-align:center">&#x265F;</p></td>
+          <td class="tg-vkll"><p style="text-align:center">&#x265F;</p></td>
+          <td class="tg-lxf2"><p style="text-align:center">&#x265F;</p></td>
+          <td class="tg-vkll"><p style="text-align:center">&#x265F;</p></td>
+          <td class="tg-lxf2"><p style="text-align:center">&#x265F;</p></td>
+          <td class="tg-vkll"><p style="text-align:center">&#x265F;</p></td>
+        </tr>
+        <tr>
+          <td class="tg-vkll"><p style="text-align:center">&#x265C;</p></td>
+          <td class="tg-lxf2"><p style="text-align:center">&#x265E;</p></td>
+          <td class="tg-vkll"><p style="text-align:center">&#x265D;</p></td>
+          <td class="tg-lxf2"><p style="text-align:center">&#x265B;</p></td>
+          <td class="tg-vkll"><p style="text-align:center">&#x265A;</p></td>
+          <td class="tg-lxf2"><p style="text-align:center">&#x265D;</p></td>
+          <td class="tg-vkll"><p style="text-align:center">&#x265E;</p></td>
+          <td class="tg-lxf2"><p style="text-align:center">&#x265C;</p></td>
+        </tr>
+      </tbody>
+      </table>
 
   <div>
     <h2>Challenge 3: Create a Form</h2>
@@ -122,6 +111,7 @@
     .tab { margin-left: 40px; }
 
   </style>
+
   <h2>Challenge 4: A Google Search Page</h2>
   <div style=background-color:black;font-family:helvetica>
     <p style=color:grey;>About 3,400,000,000 results (0.86 seconds)</p>
@@ -141,4 +131,5 @@
 
   </div>
 
+</body>
 </html>
