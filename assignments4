@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+  <html>
+
+    <head>
+      <meta charset='utf-8'>
+      <title>Assignment 4</title>
+      <style type="text/css">
+        .tg  {border-collapse:collapse;border-spacing:0;}
+        .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+          overflow:hidden;padding:10px 5px;word-break:normal;height:20px;width:20px;}
+        .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+          font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+        .tg .tg-pjzm{background-color:#329a9d;border-color:#68cbd0;color:#333333;text-align:left;vertical-align:top}
+        .tg .tg-vkll{border-color:#68cbd0;text-align:left;vertical-align:top}
+        .tg .tg-lxf2{background-color:#329a9d;border-color:#68cbd0;text-align:left;vertical-align:top}
+      </style>
+    </head>
+    <body>
+      <h2>Challenge 2: Create a Chessboard</h2>
+      <table class="tg" style=table-layout:fixed;width:30px>
+      <thead>
+        <tr>
+          <th class="tg-lxf2"><p style="text-align:center">&#x2656;</p></th>
+          <th class="tg-vkll"><p style="text-align:center">&#x2658;</p></th>
+          <th class="tg-pjzm"><p style="text-align:center">&#x2657;</p></th>
+          <th class="tg-vkll"><p style="text-align:center">&#x2655;</p></th>
+          <th class="tg-lxf2"><p style="text-align:center">&#x2654;</p></th>
+          <th class="tg-vkll"><p style="text-align:center">&#x2657;</p></th>
+          <th class="tg-lxf2"><p style="text-align:center">&#x2658;</p></th>
+          <th class="tg-vkll"><p style="text-align:center">&#x2656;</p></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="tg-vkll"><p style="text-align:center">&#x2659;</p></td>
+          <td class="tg-lxf2"><p style="text-align:center">&#x2659;</p></td>
+          <td class="tg-vkll"><p style="text-align:center">&#x2659;</p></td>
+          <td class="tg-lxf2"><p style="text-align:center">&#x2659;</p></td>
+          <td class="tg-vkll"><p style="text-align:center">&#x2659;</p></td>
+          <td class="tg-lxf2"><p style="text-align:center">&#x2659;</p></td>
+          <td class="tg-vkll"><p style="text-align:center">&#x2659;</p></td>
+          <td class="tg-pjzm"><p style="text-align:center">&#x2659;</p></td>
+        </tr>
+        <tr>
+          <td class="tg-lxf2"></td>
+          <td class="tg-vkll"></td>
+          <td class="tg-lxf2"></td>
+          <td class="tg-vkll"></td>
+          <td class="tg-lxf2"></td>
+          <td class="tg-vkll"></td>
+          <td class="tg-lxf2"></td>
+          <td class="tg-vkll"></td>
+        </tr>
+        <tr>
+          <td class="tg-vkll"></td>
+          <td class="tg-lxf2"></td>
+          <td class="tg-vkll"></td>
+          <td class="tg-lxf2"></td>
+          <td class="tg-vkll"></td>
+          <td class="tg-lxf2"></td>
+          <td class="tg-vkll"></td>
+          <td class="tg-lxf2"></td>
+        </tr>
+        <tr>
+          <td class="tg-lxf2"></td>
+          <td class="tg-vkll"></td>
+          <td class="tg-lxf2"></td>
+          <td class="tg-vkll"></td>
+          <td class="tg-lxf2"></td>
+          <td class="tg-vkll"></td>
+          <td class="tg-lxf2"></td>
+          <td class="tg-vkll"></td>
+        </tr>
+        <tr>
+          <td class="tg-vkll"></td>
+          <td class="tg-lxf2"></td>
+          <td class="tg-vkll"></td>
+          <td class="tg-lxf2"></td>
+          <td class="tg-vkll"></td>
+          <td class="tg-lxf2"></td>
+          <td class="tg-vkll"></td>
+          <td class="tg-lxf2"></td>
+        </tr>
+        <tr>
+          <td class="tg-lxf2"><p style="text-align:center">&#x265F;</p></td>
+          <td class="tg-vkll"><p style="text-align:center">&#x265F;</p></td>
+          <td class="tg-pjzm"><p style="text-align:center">&#x265F;</p></td>
+          <td class="tg-vkll"><p style="text-align:center">&#x265F;</p></td>
+          <td class="tg-lxf2"><p style="text-align:center">&#x265F;</p></td>
+          <td class="tg-vkll"><p style="text-align:center">&#x265F;</p></td>
+          <td class="tg-lxf2"><p style="text-align:center">&#x265F;</p></td>
+          <td class="tg-vkll"><p style="text-align:center">&#x265F;</p></td>
+        </tr>
+        <tr>
+          <td class="tg-vkll"><p style="text-align:center">&#x265C;</p></td>
+          <td class="tg-lxf2"><p style="text-align:center">&#x265E;</p></td>
+          <td class="tg-vkll"><p style="text-align:center">&#x265D;</p></td>
+          <td class="tg-lxf2"><p style="text-align:center">&#x265B;</p></td>
+          <td class="tg-vkll"><p style="text-align:center">&#x265A;</p></td>
+          <td class="tg-lxf2"><p style="text-align:center">&#x265D;</p></td>
+          <td class="tg-vkll"><p style="text-align:center">&#x265E;</p></td>
+          <td class="tg-lxf2"><p style="text-align:center">&#x265C;</p></td>
+        </tr>
+      </tbody>
+      </table>
+
+<h2>Challenge 3:Create a Form</h2>
+  <div>
+    <form>
+      <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name='fname'>
+      <p>Pineapple on pizza?<br>
+      <input type='radio' id='color1' name='color1' value='pizza'>
+      <label for='color1'>Yes </label><br>
+      <input type='radio' id='color2' name='color2' value='pineapple'>
+      <label for='color2'>Yes </label><br>
+      <input type='radio' id='color3' name='color3' value='no'>
+      <label for='color3'> No, I'm a hater</label><br>
+      <p>Why can't pineapple be on pizza?<br>
+      <input type='checkbox' id='fruit' name='fruit' value='pizza'>
+      <label for='fruit'>Fruit doesn't belong on pizza. (but tomatoes are on pizza)</label><br>
+      <input type='checkbox' id='sweet' name='sweet' value='pineapple'>
+      <label for='sweet'>Sweet and Savory is a no no (French fries and frosty's?? Chocolate covered pretzels??) </label><br>
+      <input type='checkbox' id='hater' name='hater' value='no'>
+      <label for='hater'> I'm just a hater</label><br>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+
+    <style type="text/css">
+    .tg  {border-collapse:collapse;border-spacing:0;}
+    .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+      overflow:hidden;padding:1px 5px;word-break:normal; width:1000px;height:5px}
+    .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+      font-weight:normal;overflow:hidden;padding:1px 5px;word-break:normal;width:1000px;height:5px}
+    .tg .tg-0lax{text-align:left;vertical-align:top}
+    </style>
+
+    <style type="text/css">
+      .tab { margin-left: 20px; }
+    </style>
+
+
+      <div style=background-color:black;font-family:helvetica>
+        <p style=color:grey;>About 3,400,000,000 results (0.86 seconds)</p>
+        <p style=color:white;>https://www.colorado.edu > <a style=color:grey>atlas ⋮</a></p>
+        <p style=color:purple;font-size:1.5em>ATLAS Institute | University of Colorado Boulder</p>
+        <p style=color:white;><strong>ATLAS</strong> is an interdisciplinary <strong>institue</strong> for radical creativity and invention. We transform <br> ingenius ideas into reality through research,...</p>
+
+      <table class="tg">
+      <thead>
+        <tr>
+          <th class="tg-0lax"><p style=color:#8DBAE2;font-size:20px;text-align:left class="tab">Graduate Degrees in Creative ...<br><a style=color:white;text-align:left;font-size:15px>Radically interdisciplinary, ATLAS<br>graduate programs nurture...</a></p></th>
+          <th class="tg-0lax"><p style=color:purple;font-size:20px;text-align:left> About<br><a style=color:white;text-align:left;font-size:15px>Radically interdisciplinary, ATLAS<br> institute for radical creativity and... </a></p></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="tg-0lax"><p style=color:purple;font-size:20px;text-align:left class="tab"> Academics<br><a style=color:white;text-align:left;font-size:15px>Granted through the College of<br>Engineering and Applied ... </a></p></td>
+          <td class="tg-0lax"><p style=color:purple;font-size:20px;text-align:left> Undergraduate Programs<br><a style=color:white;text-align:left;font-size:15px>Awarded through the College of<br> Engineering and Applied ... </a></p></td>
+        </tr>
+        <tr>
+          <td class="tg-0lax"><p style=color:purple;font-size:20px;text-align:left class="tab"> Faculty<br><a style=color:white;text-align:left;font-size:15px>Lecturer, co-chair Board of <br> Advisors • DESIGN, AR/VR... </a></p></td>
+          <td class="tg-0lax"><p style=color:#8DBAE2;font-size:20px;text-align:left> Research + Creative<br><a style=color:white;text-align:left;font-size:15px>Check out ATLAS Research<br> Showcase 2020. </a></p></td>
+        </tr>
+        <tr>
+          <td class="tg-0lax"><p style=color:#8DBAE2;font-size:15px;text-align:left class="tab">More results from colorado.edu >></p></td>
+          <td class="tg-0lax"></td>
+        </tr>
+
+      </tbody>
+      </table>
+      <p style=color:white;>https://www.colorado.edu > <a style=color:grey> innovate > atlas-institute ⋮</a></p>
+      <p style=color:#8DBAE2;font-size:1.5em>ATLAS Institute | Innovation and Entrepreneurship - University of ...</p>
+      <p style=color:white;>Resource that sponsors diverse interdisciplinary academic and research programs, challenging<br> community members to explore, innovate, create and design well ...</p>
+    <p style=color:black>hi</p>
+      <p style=color:white;>https://www.linkedin.com > <a style=color:grey> school > atlas-cu-boulder ⋮</a></p>
+      <p style=color:#8DBAE2;font-size:1.5em>ATLAS Institute at CU Boulder Employees, Location, Alumni</p>
+      <p style=color:white;>ATLAS is an interdisciplinary institute for radical creativity and invention where ingenious ideas<br> become reality. · <strong>ATLAS Institute</strong> at CU Boulder. View all open ...</p>
+    <p style=color:black>hi</p>
+      <p style=color:white;>https://www.typemoon.fandom.com > <a style=color:grey> wiki > Atlas ⋮</a></p>
+      <p style=color:#8DBAE2;font-size:1.5em>Atlas | TYPE-MOON Wiki | Fandom</p>
+      <p style=color:white;>It is an institute focused on the study and development of alchemy, but its members broke off<br> from the mainstream modern practice of alchemy that originated in ...<br>
+      <a style=color:#8DBAE2;>‎External Relationships · ‎Alchemist of Atlas · ‎Activities · ‎Headquarters</a></p>
+    <p style=color:black>hi</p>
+      <p style=color:white;>https://www.internationalaffairshouse.org > <a style=color:grey> wiki > Atlas ⋮</a></p>
+      <p style=color:#8DBAE2;font-size:1.5em>Atlas Institute for International Affairs: Home</p>
+      <p style=color:white;><strong>Atlas Institute</strong>for International Affairs- The Harmony of Opposite Tensions. ... <strong>Atlas Institute.</strong><br> The World's Leading Open-Access Think-Tank Publisher ...</p>
+
+      </div>
+    <h2>Challenge 5: Accesibility Concerns</h2>
+    <div>
+    </div>
+      <p></p>
+    </body>
+  </html>
