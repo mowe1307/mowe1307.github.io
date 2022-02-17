@@ -8,7 +8,7 @@ p {
 h3 {
   font-family:'Raleway', sans-serif;
   font-weight:200;
-  color:#CBCDA2;
+  color:#D9CEC9;
   text-align:center;
   font-style:italic;
   text-decoration: none;
@@ -20,7 +20,6 @@ a:link{
   text-decoration: none;
   font-size:120%;
   font-style:italic;
-  text-align:center;
 }
 a:visited{
   color:#CBCDA2;
@@ -29,7 +28,6 @@ a:visited{
   text-decoration: none;
   font-size:120%;
   font-style:italic;
-  text-align:center;
 }
 a:hover{
   color:#D9CEC9;
@@ -38,7 +36,6 @@ a:hover{
   text-decoration: none;
   font-size:120%;
   font-style:italic;
-  text-align:center;
 }
 #TOC {
   font-family:'Raleway', sans-serif;
