@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,700;1,100,200&display=swap');
 p {
   font-family:'Raleway', sans-serif;
-  color:pink;
+  color:#69585F;
   font-weight:300;
 }
 h3 {
@@ -10,9 +10,17 @@ h3 {
   font-weight:200;
   text-align:center;
   font-style:italic;
-
 }
-#test-id {
+a:link{
+  color:#69585F;
+}
+a:visited{
+  color:#CBCDA2;
+}
+a:hover{
+  color:#D9CEC9;
+}
+#TOC {
   font-family:'Raleway', sans-serif;
   font-weight:200;
   font-style:normal;
@@ -22,9 +30,15 @@ h1 {
   font-family:'Raleway', sans-serif;
   font-weight:700;
   text-align:center;
+  color:#2C0E37;
 }
 body{
-  background-color:white;
-  font-family:'Raleway', sans-serif;
+  background-color:#FEF5EC;
 
+
+}
+h4 {
+  color:#2C0E37;
+  font-family:'Raleway', sans-serif;
+  font-weight:200;
 }
