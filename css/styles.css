@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,700;1,100,200&display=swap');
+p {
+  font-family:'Raleway', sans-serif;
+  color:pink;
+  font-weight:300;
+}
+h3 {
+  font-family:'Raleway', sans-serif;
+  font-weight:200;
+  text-align:center;
+  font-style:italic;
+
+}
+#test-id {
+  font-family:'Raleway', sans-serif;
+  font-weight:200;
+  font-style:normal;
+  text-align:left;
+}
+h1 {
+  font-family:'Raleway', sans-serif;
+  font-weight:700;
+  text-align:center;
+}
+body{
+  background-color:white;
+  font-family:'Raleway', sans-serif;
+
+}
