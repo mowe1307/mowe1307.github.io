@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,700;1,100,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,700;1,100,200;0,100&display=swap');
 p {
   font-family:'Raleway', sans-serif;
   color:#69585F;
@@ -8,34 +8,56 @@ p {
 h3 {
   font-family:'Raleway', sans-serif;
   font-weight:200;
+  color:#CBCDA2;
   text-align:center;
   font-style:italic;
+  text-decoration: none;
 }
 a:link{
   color:#69585F;
+  font-family:'Raleway', sans-serif;
+  font-weight:100;
+  text-decoration: none;
+  font-size:120%;
+  font-style:italic;
+  text-align:center;
 }
 a:visited{
   color:#CBCDA2;
+  font-family:'Raleway', sans-serif;
+  font-weight:100;
+  text-decoration: none;
+  font-size:120%;
+  font-style:italic;
+  text-align:center;
 }
 a:hover{
   color:#D9CEC9;
+  font-family:'Raleway', sans-serif;
+  font-weight:100;
+  text-decoration: none;
+  font-size:120%;
+  font-style:italic;
+  text-align:center;
 }
 #TOC {
   font-family:'Raleway', sans-serif;
   font-weight:200;
   font-style:normal;
-  text-align:left;
+  color:#69585F;
+  text-align:center;
+  font-size:200%
 }
 h1 {
   font-family:'Raleway', sans-serif;
   font-weight:700;
   text-align:center;
-  color:#2C0E37;
+  color:#69585F;
+  font-size:400%;
+
 }
 body{
   background-color:#FEF5EC;
-
-
 }
 h4 {
   color:#2C0E37;
