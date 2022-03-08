@@ -8,10 +8,9 @@ p {
 }
 h3 {
   font-family:'Raleway', sans-serif;
-  font-weight:200;
+  font-weight:700;
   color:#D9CEC9;
   text-align:center;
-  font-style:italic;
   text-decoration: none;
 }
 a:link{
@@ -54,8 +53,12 @@ h1 {
   font-size:400%;
 
 }
+#mtn{
+  width: 40vw;
+  height: auto;
+}
 body{
-  background-color:#FEF5EC;
+  background-color:##F5F5F5;
 }
 h4 {
   color:#2C0E37;
@@ -96,19 +99,19 @@ pic {
   .col-12 {width: 100%;}
 }
 /* If the screen size is 601px or more, set the font-size of <div> to 80px */
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 400px) {
   div.example {
     font-size: 80px;
   }
 }
 
 /* If the screen size is 600px or less, set the font-size of <div> to 30px */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 399px) {
   div.example {
     font-size: 30px;
   }
 }
 img {
-  width: 15vw;
+  width: 40vw;
   height: auto;
 }
