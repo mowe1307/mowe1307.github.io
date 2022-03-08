@@ -10,27 +10,7 @@ p {
 body{
   background-color:#F5F5F5;
 }
-label{
-  margin-left: auto;
-  margin-right: auto;
-  font-family:'Raleway', sans-serif;
-  color:#69585F;
-  font-weight:300;
-  text-align:center;
-}
-.button {
-  font-family:'Raleway', sans-serif;
-  background-color: #D9CEC9;
-  border: none;
-  color: black;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 16px;
-}
+
 /*h1-4*/
 h1 {
   font-family:'Raleway', sans-serif;
@@ -137,13 +117,32 @@ a:hover{
     height: 100px;
     width:500px;
   }
+/*for forms*/
+label{
+  margin-left: auto;
+  margin-right: auto;
+  font-family:'Raleway', sans-serif;
+  color:#D9CEC9;
+  font-weight:300;
+  text-align:center;
+}
+.button {
+  font-family:'Raleway', sans-serif;
+  background-color: #D9CEC9;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+/*for pictures*/
 #mtn{
   width: 800px;
   height: auto;
-}
-#fish{
-  width:300px
-  height:200px
 }
 .center {
   display: block;
