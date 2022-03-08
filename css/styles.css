@@ -1,10 +1,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,700;1,100,200;0,100;1,300;&display=swap');
+/*for setup*/
 p {
   font-family:'Raleway', sans-serif;
   color:#69585F;
   font-weight:300;
   text-align:center;
+}
+body{
+  background-color:#F5F5F5;
+}
+/*h1-4*/
+h1 {
+  font-family:'Raleway', sans-serif;
+  font-weight:700;
+  text-align:center;
+  color:#69585F;
+  font-size:400%;
 }
 h2 {
   font-family:'Raleway', sans-serif;
@@ -20,6 +32,14 @@ h3 {
   text-align:center;
   text-decoration: none;
 }
+h4 {
+  color:#2C0E37;
+  font-family:'Raleway', sans-serif;
+  font-weight:200;
+  text-align:center;
+  font-style: italic;
+}
+/*for links*/
 a:link{
   color:#CBCDA2;
   font-family:'Raleway', sans-serif;
@@ -40,8 +60,8 @@ a:hover{
   font-weight:700;
   text-decoration: none;
   font-size:120%;
-
 }
+/*for tables*/
 .tg{
   border-collapse:collapse;
   border-spacing:0;
@@ -96,27 +116,9 @@ a:hover{
     height: 100px;
     width:500px;
   }
-h1 {
-  font-family:'Raleway', sans-serif;
-  font-weight:700;
-  text-align:center;
-  color:#69585F;
-  font-size:400%;
-
-}
 #mtn{
   width: 800px;
   height: auto;
-}
-body{
-  background-color:#F5F5F5;
-}
-h4 {
-  color:#2C0E37;
-  font-family:'Raleway', sans-serif;
-  font-weight:200;
-  text-align:center;
-  font-style: italic;
 }
 .center {
   display: block;
