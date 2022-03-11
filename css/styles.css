@@ -203,7 +203,7 @@ label{
   grid-column-start:2;
   grid-column-end:3;
 } */
-/* contact grid
+/* contact grid */
 .contact{
   display: grid;
   height:200px;
