@@ -7,7 +7,7 @@
     <title>Midterm</title>
     <script>
     function myFunction() {
-      alert ('hello world');
+      document.getElementById("demo").innerHTML = "Paragraph changed.";
     }
 </script>
   </head>
@@ -23,9 +23,20 @@
     <h3><a href='https://mowe1307.github.io/assignment11.html'>java</a></h3>
   </div>
   <h2>hello</h2>
-  element.addEventListener("click", myFunction);
 
-<p id="demo">hello</p>
+<p id="demo" class='button'>hello</p>
 <button type="button" onclick="myFunction()" class='button'>press</button>
+<button id="myBtn">Click Me</button>
 
+<script>
+// Defining custom functions
+function firstFunction() {
+    alert("The first function executed successfully!");
+// Selecting button element
+var btn = document.getElementById("myBtn");
+
+// Assigning event listeners to the button
+btn.addEventListener("click", firstFunction);
+btn.addEventListener("click", secondFunction);
+</script>
 </body>
