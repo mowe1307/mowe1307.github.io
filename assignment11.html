@@ -49,13 +49,23 @@
       function setNormalColor() {
           btn.style.background = "";
       }
-
-      // Assigning event listeners to the button
       btn.addEventListener("click", sayHello);
       btn.addEventListener("mouseover", setHoverColor);
       btn.addEventListener("mouseout", setNormalColor);
       </script>
     </form>
   </div>
+  <script>
+      var now = new Date();
+      var dayOfWeek = now.getDay(); // Sunday - Saturday : 0 - 6
+
+      if(dayOfWeek == 5) {
+          document.write("Have a nice weekend!");
+      } else if(dayOfWeek == 0) {
+          document.write("Have a nice Sunday!");
+      } else {
+          document.write("Have a nice day!");
+      }
+      </script>
 
 </body>
