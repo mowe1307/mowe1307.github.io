@@ -104,6 +104,9 @@ label{
   width: 800px;
   height: auto;
 }
+#demo{
+  text-align: center;
+}
 .center {
   display: block;
   margin-left: auto;
