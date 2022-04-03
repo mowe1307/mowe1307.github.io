@@ -20,50 +20,55 @@
   <h2>hello</h2>
 
 
-<button id="myBtn" class='button'>click</button>
 
-<script>
-// Defining custom functions
-function firstFunction() {
-    alert("The first function executed successfully!");
-}
+<form>
+    <label for="fname">name</label><br>
+      <input type="text" id="fname" name='fname'><br>
+    <label for="email">email</label><br>
+      <input type="text" id="email" name='email'><br>
+    <label for="message">message</label><br>
+      <input type="text" id="message" name='message'><br><br>
+      <button id="myBtn" class='button'>click</button>
 
-function secondFunction() {
-    alert("The second function executed successfully");
-}
+      <script>
+      // Defining custom functions
+      function firstFunction() {
+          alert("The first function executed successfully!");
+      }
 
-// Selecting button element
-var btn = document.getElementById("myBtn");
+      function secondFunction() {
+          alert("The second function executed successfully");
+      }
 
-// Assigning event listeners to the button
-btn.addEventListener("click", firstFunction);
-btn.addEventListener("click", secondFunction);
-</script>
+      // Selecting button element
+      var btn = document.getElementById("myBtn");
 
-<button id="myBtn">Click Me</button>
+      // Assigning event listeners to the button
+      btn.addEventListener("click", firstFunction);
+      btn.addEventListener("click", secondFunction);
+      </script>
+      <script>
+      // Selecting button element
+      var btn = document.getElementById("myBtn");
 
-<script>
-// Selecting button element
-var btn = document.getElementById("myBtn");
+      // Defining custom functions
+      function sayHello() {
+          alert("Hi, how are you doing?");
+      }
 
-// Defining custom functions
-function sayHello() {
-    alert("Hi, how are you doing?");
-}
+      function setHoverColor() {
+          btn.style.background = "yellow";
+      }
 
-function setHoverColor() {
-    btn.style.background = "yellow";
-}
+      function setNormalColor() {
+          btn.style.background = "";
+      }
 
-function setNormalColor() {
-    btn.style.background = "";
-}
-
-// Assigning event listeners to the button
-btn.addEventListener("click", sayHello);
-btn.addEventListener("mouseover", setHoverColor);
-btn.addEventListener("mouseout", setNormalColor);
-</script>
-
+      // Assigning event listeners to the button
+      btn.addEventListener("click", sayHello);
+      btn.addEventListener("mouseover", setHoverColor);
+      btn.addEventListener("mouseout", setNormalColor);
+      </script>
+    </form>
 
 </body>
