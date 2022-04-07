@@ -1,0 +1,105 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&display=swap');
+</style>
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-color:#808F85;
+}
+h2 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+  color:#595959;
+}
+h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  text-align:center;
+  color:#F2E9DC;
+  padding: 20px
+}
+
+.app {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  background-color: #91C499;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+header {
+  width: 100%;
+  font-weight:700;
+  color:#595959;
+  text-align: center;
+  padding: 10px;
+}
+
+.quotes {
+  padding: 20px 50px;
+  min-height: 200px;
+}
+
+.quote-text {
+  padding-bottom: 20px;
+  font-size: 25px;
+  color: #595959;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.controls {
+  width: 100%;
+  padding: 20px 50px;
+}
+
+.button {
+  display: block;
+  color: #808F85;
+  border-radius: 4px;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-align: center;
+  width: 76.5%;
+  font-size: 20px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+.new-quote {
+  background-color: #91C499;
+  margin-bottom: 15px;
+}
+
+.new-quote:hover {
+  background-color: #91C499;
+}
+
+.new-quote:disabled {
+  background-color: #91C499;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+@media screen and (max-width: 600px) {
+  .app {
+    width: 100%;
+  }
+  .quote-text {
+    font-size: 18px;
+  }
+}
