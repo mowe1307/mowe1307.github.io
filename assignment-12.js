@@ -1,10 +1,11 @@
 async function getQuote() {
   console.log("quote button was clicked");
   try {
-    const response = await fetch(endpoint);
-    if (!response.ok) {
-      throw Error(response.statusText)
-    }
+    const response = await fetch(endpoint,{mode: 'no-cors'});
+    //if (!response.ok) {
+    //  throw Error(response.statusText)
+    //}
+    console.log(response);
     const json = await response.json();
     console.log(json);
     displayQuote(json.url);
@@ -17,6 +18,6 @@ function displayQuote(quote) {
   const quoteText = document.querySelector('#js-quote-text');
   quoteText.textContent = quote;
 }
-const endpoint = 'https://random-d.uk/api/v2/random';
+const endpoint = 'https://random-d.uk/api/v2/quack';
 const quoteButton = document.querySelector('#js-new-quote');
 quoteButton.addEventListener('click', getQuote);
