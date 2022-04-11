@@ -16,7 +16,7 @@
  //}
 //}
 function getQuote() {
-  const 'image' = document.querySelector(‘img’);
+  const image = document.querySelector('img');
   image.src = 'https://random-d.uk/api/randomimg?t=' + new Date().getTime();
 }
 function displayQuote(quote) {
