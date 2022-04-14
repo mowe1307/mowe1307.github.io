@@ -118,6 +118,29 @@ label{
   text-align:center;
   text-decoration: none;
 }
+#box{
+  background-color:#69585F;
+  width: 50%;
+
+}
+.story{
+    background-color:#69585F;
+    color:#D9CEC9;
+    width:50%;
+}
+.randomize{
+  font-family:'Raleway', sans-serif;
+  background-color: #F5F5F5;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
 .center {
   display: block;
   margin-left: auto;
