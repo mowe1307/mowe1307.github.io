@@ -26,6 +26,8 @@ h2 {
   color:#69585F;
   text-align:center;
   text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 h3 {
   font-family:'Raleway', sans-serif;
@@ -48,6 +50,8 @@ a:link{
   font-weight:700;
   text-decoration: none;
   font-size:120%;
+  margin-left: auto;
+  margin-right: auto;
 }
 a:visited{
   color:#CBCDA2;
@@ -55,6 +59,8 @@ a:visited{
   font-weight:700;
   text-decoration: none;
   font-size:120%;
+  margin-left: auto;
+  margin-right: auto;
 }
 a:hover{
   color:#D9CEC9;
@@ -62,6 +68,8 @@ a:hover{
   font-weight:700;
   text-decoration: none;
   font-size:120%;
+  margin-left: auto;
+  margin-right: auto;
 }
 /*for forms*/
 label{
@@ -159,6 +167,18 @@ label{
 .middle {
   text-align:center
 }
+.img3{
+  width: 260px;
+  justify-content: center;
+}
+.img4{
+  width: 100%;
+  justify-content: center;
+}
+.img5{
+  width: 100%;
+  justify-content: center;
+}
 
 /* navigation bar grid */
 .navbar{
@@ -247,6 +267,22 @@ label{
   border-radius: 25px;
   padding:20px;
 }
+.blindDate{
+  display: grid;
+  height:150px;
+  width:400px;
+  background-color: #69585F;
+  font-family:'Raleway', sans-serif;
+  color:#D9CEC9;
+  font-weight:300;
+  text-align:center;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  margin-left:auto;
+  margin-right: auto;
+  border-radius: 25px;
+  padding:20px;
+}
 /* submit grid */
 .submit {
   display: grid;
@@ -262,6 +298,38 @@ label{
   margin-left:auto;
   margin-right: auto;
 }
+.story {
+  font-family:'Raleway', sans-serif;
+  color:#69585F;
+  background-color:#CBCDA2;
+  font-weight:300;
+  text-align:center;
+  font-size: 130%;
+  border-radius: 25px;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-left:auto;
+  margin-right: auto;
+}
+li {
+   display: block;
+   list-style: none;
+   padding:5px;
+   margin-left:auto;
+   margin-right: auto;
+  }
+li:hover{
+    background-color:#69585F;
+}
+
+
 
 /* For mobile phones: */
 [class*="col-"] {

@@ -4,6 +4,7 @@
     <meta charset = 'utf-8'>
     <link rel="stylesheet" href="./css/styles.css" type="text/css">
     <title>Midterm</title>
+    <script src="assignments.js" defer></script>
   </head>
   <body>
   <h3><a href="https://mowe1307.github.io/">home</a></h3>
@@ -14,21 +15,35 @@
     <h3>&#128507;</h3>
     <h3><a href='https://mowe1307.github.io/contact.html'>contact</a></h3>
     <h3>&#128507;</h3>
-    <h3><a href='https://mowe1307.github.io/assignments/assignment11.html'>java</a></h3>
+    <h3><a href='https://mowe1307.github.io/FinalProject'>final project</a></h3>
   </div>
-  </div>
-  <div class="grid-container">
-    <div class="grid-item"><a href='./assignments/assignment1.html' target="_blank"><br>hello world</a></div>
-    <div class="grid-item"><a href='./assignments/Assignment3.html' target="_blank"><br>wikipedia</a></div>
-    <div class="grid-item"><a href='./assignments/assignments4.html' target="_blank"><br>challenges</a></div>
-    <div class="grid-item"><a href="https://mowe1307.github.io/"><br>website</a></div>
-  </div>
-  <h2> other projects</h2>
-  <div class="others">
-    <div class="grid-item"><img src='yogurt.png' alt='yogurt' class='center2'></div>
-    <div class="grid-item"><img src='yogurt2.png' alt='yogurt2' class='center2'></div>
-    <div class="grid-item"><img src="apple.png" alt='apple' class='center2'></div>
-  </div>
+</div>
+
+
+  <ul>
+      <li><img class="img1" src="yogurt2.png"> <p><a href='https://mowe1307.github.io/assignments/assignment1.html'>hello world</a></p></li>
+      <li><img class="img2" src="yogurt.png"><p><a href='https://mowe1307.github.io/assignments/Assignment3.html'>wiki</a></p></li>
+      <li><img class="img3" src="challenges.jpg"><p><a href='https://mowe1307.github.io/assignments/assignments4.html'>challenges</a></p></li>
+      <li><img class="img4" src="java.jpg"><p><a href='https://mowe1307.github.io/assignments/assignment11.html'>java</a></p></li>
+      <li><img class="img5" src="duck.jpg"><p><a href='https://mowe1307.github.io/assignment12.html'>ducks</a></p></li>
+    </ul>
+    <button onclick="show(-1)">&lt;</button>
+    <button onclick="show(+1)">&gt;</button>
+    <style>
+      button.prev, button.next {
+        display: flex; font-size: 32px;
+        align-items: center; justify-content: center;
+        color: #FFF; background-color: #333;
+        border-radius: 50%;
+        width: 44px; height: 44px;
+      }
+      button.prev {
+        position: absolute; left: 0; top: 80px;
+      }
+      button.next {
+        position: absolute; right: 0; top: 80px;
+      }
+    </style>
   <img id='mtn' src='./img/Images/mtn.png' alt='trees' class='center' >
 
   </body>
