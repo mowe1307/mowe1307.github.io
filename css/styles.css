@@ -167,18 +167,28 @@ label{
 .middle {
   text-align:center
 }
+.img1{
+  width: 100%;
+  justify-content: center;
+
+}
+.img2{
+  width: 102%;
+  justify-content: center;
+}
 .img3{
   width: 260px;
   justify-content: center;
 }
 .img4{
-  width: 100%;
+  width: 111%;
   justify-content: center;
 }
 .img5{
-  width: 100%;
+  width: 112%;
   justify-content: center;
 }
+
 
 /* navigation bar grid */
 .navbar{
