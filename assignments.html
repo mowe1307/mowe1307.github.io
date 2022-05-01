@@ -3,7 +3,7 @@
   <head>
     <meta charset = 'utf-8'>
     <link rel="stylesheet" href="./css/styles.css" type="text/css">
-    <title>Midterm</title>
+    <title>Projects</title>
     <script src="assignments.js" defer></script>
   </head>
   <body>
@@ -19,7 +19,7 @@
   </div>
 </div>
 
-
+<div>
   <ul>
       <li><img class="img1" src="helloworld.jpg"> <p><a href='https://mowe1307.github.io/assignments/assignment1.html'>hello world</a></p></li>
       <li><img class="img2" src="wiki.jpg"><p><a href='https://mowe1307.github.io/assignments/Assignment3.html'>wiki</a></p></li>
@@ -27,23 +27,11 @@
       <li><img class="img4" src="java.jpg"><p><a href='https://mowe1307.github.io/assignments/assignment11.html'>java</a></p></li>
       <li><img class="img5" src="duck.jpg"><p><a href='https://mowe1307.github.io/assignment12.html'>ducks</a></p></li>
     </ul>
-    <button onclick="show(-1)">&lt;</button>
-    <button onclick="show(+1)">&gt;</button>
-    <style>
-      button.prev, button.next {
-        display: flex; font-size: 32px;
-        align-items: center; justify-content: center;
-        color: #FFF; background-color: #333;
-        border-radius: 50%;
-        width: 44px; height: 44px;
-      }
-      button.prev {
-        position: absolute; left: 0; top: 80px;
-      }
-      button.next {
-        position: absolute; right: 0; top: 80px;
-      }
-    </style>
+  </div>
+  <div>
+    <button class="prev" onclick="show(-1)">&lt;</button>
+    <button class="next" onclick="show(+1)">&gt;</button>
+</div>
   <img id='mtn' src='./img/Images/mtn.png' alt='trees' class='center' >
 
   </body>
