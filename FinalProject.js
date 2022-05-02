@@ -8,7 +8,7 @@ function randomValueFromArray(array){
 }
 const storyText = "Meet :insertx:, from :inserty:! They are interseted in :insertz:. At Age years old, we think :insertx: is the perfect match for you!";
 
-const array =["img src="yogurt2.png"",];
+
 const insertX = ["Shrek", "Gru", "Dr. Doofensmirtz","Voldemort","Rapunzel","Adele","Ms. Frizzle"];
 const insertY = ["Hogsmeade", "Mystic Falls", "Bikini Bottom","The Good Place","Gotham City","Pawnee, Indiana"];
 const insertZ = ["sports and music", "reading and knitting", "makeup and movies", "butter churning and cattle ranching", "throwing eggs at strangers and stealing cars","designing clothes for chihuahas and opening pizza stores under the sea"];
@@ -16,6 +16,8 @@ const insertZ = ["sports and music", "reading and knitting", "makeup and movies"
 randomize.addEventListener('click', result);
 
 function result() {
+
+
 
 newStory=storyText
 
