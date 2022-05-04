@@ -12,7 +12,7 @@ const storyText = "Meet :insertx:, from :inserty:! They are interested in :inser
 const insertX = ["Emerson", "Alex", "Cameron","Jamie","Chris","Jordan","Taylor"];
 const insertY = ["Hogsmeade", "Mystic Falls", "Bikini Bottom","The Good Place","Gotham City","Pawnee, Indiana", "Boulder", "Room 100 in the ATLAS building"];
 const insertZ = ["sports and music", "reading and knitting", "makeup and movies", "butter churning and cattle ranching", "throwing eggs at strangers and stealing cars","designing clothes for chihuahas and opening pizza stores under the sea"];
-const imgLink= ["./img/Images/Gru.png","./img/Images/voldemort.png","./img/Images/witches.png","./img/Images/Dude.png","./img/Images/edna.png"];
+const imgLink= ["img/Gru.png","img/voldemort.png","img/witches.png","img/Dude.png","img/edna.png"];
 randomize.addEventListener('click', result);
 
 function result() {
@@ -39,7 +39,9 @@ newStory=newStory.replace(/:insertz:/g, zItem)
   story.textContent =newStory ;
   story.style.visibility = 'visible';
 }
-
+console.log(randImg);
 
 let img = document.getElementById("result");
 console.log(img.src)
+
+img.src = randImg;
