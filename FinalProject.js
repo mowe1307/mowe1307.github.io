@@ -6,7 +6,7 @@ function randomValueFromArray(array){
   const random = Math.floor(Math.random()*array.length);
   return array[random];
 }
-const storyText = "Meet :insertx:, from :inserty:! They are interested in :insertz:. :insertx:'s favorite color is also Color, so we think you two iwll be life long friends!";
+const storyText = "Meet :insertx:, from :inserty:! They are interested in :insertz:. :insertx:'s favorite color is also Color, so we think you two will be life long friends!";
 
 
 const insertX = ["Emerson", "Alex", "Cameron","Jamie","Chris","Jordan","Taylor"];
@@ -38,10 +38,11 @@ newStory=newStory.replace(/:insertz:/g, zItem)
 
   story.textContent =newStory ;
   story.style.visibility = 'visible';
-}
+
 console.log(randImg);
 
 let img = document.getElementById("result");
 console.log(img.src)
 
 img.src = randImg;
+}
